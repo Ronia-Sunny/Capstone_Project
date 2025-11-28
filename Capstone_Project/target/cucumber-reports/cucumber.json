@@ -1,0 +1,925 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-11-28T03:30:39.833Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1884069600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 9997800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.TabletSteps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Valid user registration",
+        "description": "",
+        "id": "user-registration;valid-user-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 2438084200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.38.0\u0027, revision: \u00276b412e825c*\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002725\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 952b607585b4c47fb81dbc231048bab1\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)\r\n\tat stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)\r\n\tat ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:4)\r\n",
+              "duration": 32230376800,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User is on the Advantage Online Shopping registration page",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1005200,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User enters valid registration details",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_enters_valid_registration_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User submits the registration form",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_submits_the_registration_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should be redirected to the login page",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_should_be_redirected_to_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1001300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "A success message should be displayed",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.a_success_message_should_be_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-28T03:31:16.625Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.TabletSteps.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Invalid user registration (missing email)",
+        "description": "",
+        "id": "user-registration;invalid-user-registration-(missing-email)",
+        "after": [
+          {
+            "result": {
+              "duration": 2384364400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.38.0\u0027, revision: \u00276b412e825c*\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002725\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 952b607585b4c47fb81dbc231048bab1\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)\r\n\tat stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)\r\n\tat ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:11)\r\n",
+              "duration": 30548761000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User is on the Advantage Online Shopping registration page",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User enters invalid registration details missing email",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_enters_invalid_registration_details_missing_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User submits the registration form",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_submits_the_registration_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User should see an error message indicating that email is required",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-28T03:31:49.596Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.TabletSteps.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Invalid user registration (invalid email format)",
+        "description": "",
+        "id": "user-registration;invalid-user-registration-(invalid-email-format)",
+        "after": [
+          {
+            "result": {
+              "duration": 2389056700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.38.0\u0027, revision: \u00276b412e825c*\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002725\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 952b607585b4c47fb81dbc231048bab1\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)\r\n\tat stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)\r\n\tat ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:17)\r\n",
+              "duration": 30619139400,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "User is on the Advantage Online Shopping registration page",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 995800,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User enters invalid registration details invalid email",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_enters_invalid_registration_details_invalid_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User submits the registration form",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_submits_the_registration_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User should see an error message indicating that email is invalid",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-28T03:32:22.634Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.TabletSteps.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Invalid user registration (password mismatch)",
+        "description": "",
+        "id": "user-registration;invalid-user-registration-(password-mismatch)",
+        "after": [
+          {
+            "result": {
+              "duration": 2370629300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: \u00274.38.0\u0027, revision: \u00276b412e825c*\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002725\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 952b607585b4c47fb81dbc231048bab1\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)\r\n\tat stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)\r\n\tat ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:23)\r\n",
+              "duration": 30606286700,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "User is on the Advantage Online Shopping registration page",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001400,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User enters invalid registration details password mismatch",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_enters_invalid_registration_details_password_mismatch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User submits the registration form",
+            "match": {
+              "location": "stepdefinition.RegistrationSteps.user_submits_the_registration_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User should see an error message indicating that passwords do not match",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Registration",
+    "description": "",
+    "id": "user-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Registration.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2031534300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Advantage Online Shopping homepage",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_is_on_the_advantage_online_shopping_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-28T03:32:55.647Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.TabletSteps.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Add three tablets to cart",
+        "description": "",
+        "id": "tablet-shopping-and-cart-management;add-three-tablets-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 2174156700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3697329200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the Tablets category",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_clicks_on_the_tablets_category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1523364500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the tablets product page",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_should_see_the_tablets_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3645263500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects the tablet \"HP ElitePad 1000 G2 Tablet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HP ElitePad 1000 G2 Tablet\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.TabletSteps.user_selects_the_tablet(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2056322900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be on the product details page for \"HP ElitePad 1000 G2 Tablet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HP ElitePad 1000 G2 Tablet\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepdefinition.TabletSteps.user_should_be_on_the_product_details_page_for(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6578468500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User adds the product to cart",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_adds_the_product_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30682824400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The product should be added to cart successfully",
+            "match": {
+              "location": "stepdefinition.TabletSteps.the_product_should_be_added_to_cart_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4859672400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates back to tablets page",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_navigates_back_to_tablets_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3611159400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User selects the tablet \"HP Pro Tablet 608 G1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HP Pro Tablet 608 G1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.TabletSteps.user_selects_the_tablet(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2036574100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should be on the product details page for \"HP Pro Tablet 608 G1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HP Pro Tablet 608 G1\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepdefinition.TabletSteps.user_should_be_on_the_product_details_page_for(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6552992500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User adds the product to cart",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_adds_the_product_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30563820800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The product should be added to cart successfully",
+            "match": {
+              "location": "stepdefinition.TabletSteps.the_product_should_be_added_to_cart_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5135187000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigates back to tablets page",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_navigates_back_to_tablets_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3631781400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User selects the tablet \"HP Elite x2 1011 G1 Tablet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HP Elite x2 1011 G1 Tablet\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.TabletSteps.user_selects_the_tablet(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2037172400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should be on the product details page for \"HP Elite x2 1011 G1 Tablet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HP Elite x2 1011 G1 Tablet\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepdefinition.TabletSteps.user_should_be_on_the_product_details_page_for(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6562756300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User adds the product to cart",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_adds_the_product_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30596860700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The product should be added to cart successfully",
+            "match": {
+              "location": "stepdefinition.TabletSteps.the_product_should_be_added_to_cart_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1560948800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User opens the shopping cart",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_opens_the_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Cart should contain 3 items expected [3] but found [1]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:839)\r\n\tat stepdefinition.TabletSteps.user_should_see_all_tablets_in_the_cart(TabletSteps.java:98)\r\n\tat ✽.User should see all 3 tablets in the cart(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/tablet.feature:32)\r\n",
+              "duration": 30652473000,
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "User should see all 3 tablets in the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.TabletSteps.user_should_see_all_tablets_in_the_cart(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2076706800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Advantage Online Shopping homepage",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_is_on_the_advantage_online_shopping_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-28T03:35:55.897Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1020000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 983700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.TabletSteps.setup()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Navigate to tablets category",
+        "description": "",
+        "id": "tablet-shopping-and-cart-management;navigate-to-tablets-category",
+        "after": [
+          {
+            "result": {
+              "duration": 2000763000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3628098000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User clicks on the Tablets category",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_clicks_on_the_tablets_category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1518356200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should see the tablets product page",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_should_see_the_tablets_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1519164800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The page should display available tablet products",
+            "match": {
+              "location": "stepdefinition.TabletSteps.the_page_should_display_available_tablet_products()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2059201700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Advantage Online Shopping homepage",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_is_on_the_advantage_online_shopping_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-28T03:36:06.672Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.TabletSteps.setup()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "View tablet product details",
+        "description": "",
+        "id": "tablet-shopping-and-cart-management;view-tablet-product-details",
+        "after": [
+          {
+            "result": {
+              "duration": 2000660800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3613763500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User clicks on the Tablets category",
+            "match": {
+              "location": "stepdefinition.TabletSteps.user_clicks_on_the_tablets_category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3669569000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User selects the tablet \"HP ElitePad 1000 G2 Tablet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HP ElitePad 1000 G2 Tablet\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.TabletSteps.user_selects_the_tablet(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2040151500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User should be on the product details page for \"HP ElitePad 1000 G2 Tablet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HP ElitePad 1000 G2 Tablet\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepdefinition.TabletSteps.user_should_be_on_the_product_details_page_for(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2035131500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Product details should include name and price",
+            "match": {
+              "location": "stepdefinition.TabletSteps.product_details_should_include_name_and_price()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Tablet Shopping and Cart Management",
+    "description": "",
+    "id": "tablet-shopping-and-cart-management",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/tablet.feature",
+    "tags": []
+  }
+]

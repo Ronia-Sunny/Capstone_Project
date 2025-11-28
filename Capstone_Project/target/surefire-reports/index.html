@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Advantage Online Shopping Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Advantage_Online_Shopping_Test_Suite" class="navigator-link ">
+                    <span>C:\Selenium Demo\Capstone_Project\src\test\java\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Advantage_Online_Shopping_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Advantage_Online_Shopping_Test_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Advantage_Online_Shopping_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Advantage_Online_Shopping_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Advantage_Online_Shopping_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Advantage_Online_Shopping_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 5 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" class="hide-methods failed suite-Advantage_Online_Shopping_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Advantage_Online_Shopping_Test_Suite -->
+                      <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" class="show-methods failed suite-Advantage_Online_Shopping_Test_Suite"> (show)</a> <!-- show-methods failed suite-Advantage_Online_Shopping_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Advantage_Online_Shopping_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Valid user registration&quot;, &quot;Optional[User Registration]&quot;)">runScenario("Valid user registration", "Optional[User Registration]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add three tablets to cart&quot;, &quot;Optional[Tablet Shopping and Cart Management]&quot;)">runScenario("Add three tablets to cart", "Optional[Tablet Shopping and Cart Management]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Invalid user registration (invalid email format)&quot;, &quot;Optional[User Registration]&quot;)">runScenario("Invalid user registration (invalid email format)", "Optional[User Registration]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Invalid user registration (password mismatch)&quot;, &quot;Optional[User Registration]&quot;)">runScenario("Invalid user registration (password mismatch)", "Optional[User Registration]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Invalid user registration (missing email)&quot;, &quot;Optional[User Registration]&quot;)">runScenario("Invalid user registration (missing email)", "Optional[User Registration]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Advantage_Online_Shopping_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" class="hide-methods passed suite-Advantage_Online_Shopping_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Advantage_Online_Shopping_Test_Suite -->
+                      <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" class="show-methods passed suite-Advantage_Online_Shopping_Test_Suite"> (show)</a> <!-- show-methods passed suite-Advantage_Online_Shopping_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Advantage_Online_Shopping_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Navigate to tablets category&quot;, &quot;Optional[Tablet Shopping and Cart Management]&quot;)">runScenario("Navigate to tablets category", "Optional[Tablet Shopping and Cart Management]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Advantage_Online_Shopping_Test_Suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;View tablet product details&quot;, &quot;Optional[Tablet Shopping and Cart Management]&quot;)">runScenario("View tablet product details", "Optional[Tablet Shopping and Cart Management]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Advantage_Online_Shopping_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Advantage_Online_Shopping_Test_Suite" class="panel Advantage_Online_Shopping_Test_Suite">
+          <div class="suite-Advantage_Online_Shopping_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testrunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Valid user registration&quot;, &quot;Optional[User Registration]&quot;)">
+                  </a> <!-- runScenario("Valid user registration", "Optional[User Registration]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Valid user registration", "Optional[User Registration]")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)
+	at stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)
+	at ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add three tablets to cart&quot;, &quot;Optional[Tablet Shopping and Cart Management]&quot;)">
+                  </a> <!-- runScenario("Add three tablets to cart", "Optional[Tablet Shopping and Cart Management]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add three tablets to cart", "Optional[Tablet Shopping and Cart Management]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: Cart should contain 3 items expected [3] but found [1]
+	at stepdefinition.TabletSteps.user_should_see_all_tablets_in_the_cart(TabletSteps.java:98)
+	at ✽.User should see all 3 tablets in the cart(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/tablet.feature:32)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Invalid user registration (invalid email format)&quot;, &quot;Optional[User Registration]&quot;)">
+                  </a> <!-- runScenario("Invalid user registration (invalid email format)", "Optional[User Registration]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Invalid user registration (invalid email format)", "Optional[User Registration]")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)
+	at stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)
+	at ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:17)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Invalid user registration (password mismatch)&quot;, &quot;Optional[User Registration]&quot;)">
+                  </a> <!-- runScenario("Invalid user registration (password mismatch)", "Optional[User Registration]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Invalid user registration (password mismatch)", "Optional[User Registration]")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)
+	at stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)
+	at ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:23)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Invalid user registration (missing email)&quot;, &quot;Optional[User Registration]&quot;)">
+                  </a> <!-- runScenario("Invalid user registration (missing email)", "Optional[User Registration]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Invalid user registration (missing email)", "Optional[User Registration]")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)
+	at stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)
+	at ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:11)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Advantage_Online_Shopping_Test_Suite-class-failed -->
+          <div class="suite-Advantage_Online_Shopping_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testrunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Navigate to tablets category&quot;, &quot;Optional[Tablet Shopping and Cart Management]&quot;)">
+                  </a> <!-- runScenario("Navigate to tablets category", "Optional[Tablet Shopping and Cart Management]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Navigate to tablets category", "Optional[Tablet Shopping and Cart Management]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;View tablet product details&quot;, &quot;Optional[Tablet Shopping and Cart Management]&quot;)">
+                  </a> <!-- runScenario("View tablet product details", "Optional[Tablet Shopping and Cart Management]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("View tablet product details", "Optional[Tablet Shopping and Cart Management]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Advantage_Online_Shopping_Test_Suite-class-passed -->
+        </div> <!-- panel Advantage_Online_Shopping_Test_Suite -->
+        <div panel-name="test-xml-Advantage_Online_Shopping_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium Demo\Capstone_Project\src\test\java\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Advantage Online Shopping Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Tablet Shopping Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testrunner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Tablet Shopping Tests --&gt;
+&lt;/suite&gt; &lt;!-- Advantage Online Shopping Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Advantage_Online_Shopping_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Advantage Online Shopping Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Tablet Shopping Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Advantage_Online_Shopping_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Advantage Online Shopping Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Advantage_Online_Shopping_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Advantage Online Shopping Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Advantage_Online_Shopping_Test_Suite');
+function tableData_Advantage_Online_Shopping_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'testrunner.TestRunner')
+data.setCell(0, 3, 180252);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'testrunner.TestRunner')
+data.setCell(1, 3, 36895);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'testrunner.TestRunner')
+data.setCell(2, 3, 33037);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'testrunner.TestRunner')
+data.setCell(3, 3, 33003);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'testrunner.TestRunner')
+data.setCell(4, 3, 32994);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'testrunner.TestRunner')
+data.setCell(5, 3, 15449);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'testrunner.TestRunner')
+data.setCell(6, 3, 10771);
+window.suiteTableData['Advantage_Online_Shopping_Test_Suite']= { tableData: data, tableDiv: 'times-div-Advantage_Online_Shopping_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Advantage_Online_Shopping_Test_Suite">
+              </div> <!-- times-div-Advantage_Online_Shopping_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Advantage_Online_Shopping_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Advantage Online Shopping Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Advantage_Online_Shopping_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Advantage_Online_Shopping_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testrunner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">167 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Valid user registration", "Optional[User Registration]")</span>
+                <span class="method-start">662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Invalid user registration (missing email)", "Optional[User Registration]")</span>
+                <span class="method-start">37566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Invalid user registration (invalid email format)", "Optional[User Registration]")</span>
+                <span class="method-start">70564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Invalid user registration (password mismatch)", "Optional[User Registration]")</span>
+                <span class="method-start">103603 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Add three tablets to cart", "Optional[Tablet Shopping and Cart Management]")</span>
+                <span class="method-start">136608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Navigate to tablets category", "Optional[Tablet Shopping and Cart Management]")</span>
+                <span class="method-start">316864 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("View tablet product details", "Optional[Tablet Shopping and Cart Management]")</span>
+                <span class="method-start">327639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">343090 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">343197 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="344.36" tests="7" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Selenium Demo\Capstone_Project\target\test-classes;C:\Selenium Demo\Capstone_Project\target\classes;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-java\6.1.1\cucumber-java-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-core\6.1.1\cucumber-core-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin\6.1.1\cucumber-gherkin-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.1.1\cucumber-gherkin-messages-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-plugin\6.1.1\cucumber-plugin-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\docstring\6.1.1\docstring-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\html-formatter\6.0.3\html-formatter-6.0.3.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-testng\6.1.1\cucumber-testng-6.1.1.jar;C:\Users\Administrator\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Administrator\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Administrator\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Administrator\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Administrator\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\Administrator\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Administrator\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Administrator\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Administrator\.m2\repository\com\relevantcodes\extentreports\2.40.2\extentreports-2.40.2.jar;C:\Users\Administrator\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-testng\2.13.9\allure-testng-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-java-commons\2.13.9\allure-java-commons-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-model\2.13.9\allure-model-2.13.9.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.2\jackson-databind-2.12.2.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.2\jackson-annotations-2.12.2.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.2\jackson-core-2.12.2.jar;C:\Users\Administrator\.m2\repository\org\apache\tika\tika-core\1.25\tika-core-1.25.jar;C:\Users\Administrator\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-test-filter\2.13.9\allure-test-filter-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-cucumber6-jvm\2.13.9\allure-cucumber6-jvm-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\cucumber\gherkin\18.0.0\gherkin-18.0.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire11314080080364593039\surefirebooter18158244692514811222.jar C:\Users\Administrator\AppData\Local\Temp\surefire11314080080364593039 2025-11-28T09-00-37_826-jvmRun1 surefire9612460422288993092tmp surefire_01185803899595666086tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Selenium Demo\Capstone_Project\target\test-classes;C:\Selenium Demo\Capstone_Project\target\classes;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-java\6.1.1\cucumber-java-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-core\6.1.1\cucumber-core-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin\6.1.1\cucumber-gherkin-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.1.1\cucumber-gherkin-messages-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-plugin\6.1.1\cucumber-plugin-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\docstring\6.1.1\docstring-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\html-formatter\6.0.3\html-formatter-6.0.3.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-testng\6.1.1\cucumber-testng-6.1.1.jar;C:\Users\Administrator\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Administrator\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Administrator\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Administrator\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Administrator\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\Administrator\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Administrator\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Administrator\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Administrator\.m2\repository\com\relevantcodes\extentreports\2.40.2\extentreports-2.40.2.jar;C:\Users\Administrator\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-testng\2.13.9\allure-testng-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-java-commons\2.13.9\allure-java-commons-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-model\2.13.9\allure-model-2.13.9.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.2\jackson-databind-2.12.2.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.2\jackson-annotations-2.12.2.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.2\jackson-core-2.12.2.jar;C:\Users\Administrator\.m2\repository\org\apache\tika\tika-core\1.25\tika-core-1.25.jar;C:\Users\Administrator\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-test-filter\2.13.9\allure-test-filter-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-cucumber6-jvm\2.13.9\allure-cucumber6-jvm-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\cucumber\gherkin\18.0.0\gherkin-18.0.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;"/>
+    <property name="allure.results.directory" value="target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Selenium Demo\Capstone_Project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire11314080080364593039\surefirebooter18158244692514811222.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25+37-LTS-3491"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="C:\Selenium Demo\Capstone_Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\apache-jmeter-5.6.3\bin;C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Silk\Silk Performer 21.0;C:\Program Files\Java\jdk-25\bin;C:\Selenium downloads\apache-maven-3.9.11\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+37-LTS-3491"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="runScenario" classname="testrunner.TestRunner" time="36.868">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 952b607585b4c47fb81dbc231048bab1" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+</failure>
+    <system-out><![CDATA[...
+... TestNG 7.0.1 by CÃ©dric Beust (cedric@beust.com)
+...
+
+Test Suite Starting
+ Extent Report Initialized
+ Report: C:\Selenium Demo\Capstone_Project/TestReports/Report.html
+
+Scenario: Valid user registration                                  # src/test/resources/Features/Registration.feature:3
+ Starting Scenario: Valid user registration
+  Test execution started
+  Opening registration page
+  Given User is on the Advantage Online Shopping registration page # stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)
+	at stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)
+	at ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:4)
+
+  When User enters valid registration details                      # stepdefinition.RegistrationSteps.user_enters_valid_registration_details()
+  And User submits the registration form                           # stepdefinition.RegistrationSteps.user_submits_the_registration_form()
+  Then User should be redirected to the login page                 # stepdefinition.RegistrationSteps.user_should_be_redirected_to_the_login_page()
+  And A success message should be displayed                        # stepdefinition.RegistrationSteps.a_success_message_should_be_displayed()
+SCENARIO FAILED: Valid user registration
+ Screenshot captured: Valid_user_registration_20251128_090116.png
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ Scenario Failed: Valid user registration
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="testrunner.TestRunner" time="32.996">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 952b607585b4c47fb81dbc231048bab1" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+</failure>
+    <system-out><![CDATA[
+Scenario: Invalid user registration (missing email)                       # src/test/resources/Features/Registration.feature:10
+ Starting Scenario: Invalid user registration (missing email)
+  Test execution started
+  Opening registration page
+  Given User is on the Advantage Online Shopping registration page        # stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)
+	at stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)
+	at ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:11)
+
+  When User enters invalid registration details missing email             # stepdefinition.RegistrationSteps.user_enters_invalid_registration_details_missing_email()
+  And User submits the registration form                                  # stepdefinition.RegistrationSteps.user_submits_the_registration_form()
+  Then User should see an error message indicating that email is required # null
+SCENARIO FAILED: Invalid user registration (missing email)
+ Screenshot captured: Invalid_user_registration_(missing_email)_20251128_090149.png
+]]></system-out>
+    <system-err><![CDATA[ Scenario Failed: Invalid user registration (missing email)
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="testrunner.TestRunner" time="33.037">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 952b607585b4c47fb81dbc231048bab1" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+</failure>
+    <system-out><![CDATA[
+Scenario: Invalid user registration (invalid email format)               # src/test/resources/Features/Registration.feature:16
+ Starting Scenario: Invalid user registration (invalid email format)
+  Test execution started
+  Opening registration page
+  Given User is on the Advantage Online Shopping registration page       # stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)
+	at stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)
+	at ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:17)
+
+  When User enters invalid registration details invalid email            # stepdefinition.RegistrationSteps.user_enters_invalid_registration_details_invalid_email()
+  And User submits the registration form                                 # stepdefinition.RegistrationSteps.user_submits_the_registration_form()
+  Then User should see an error message indicating that email is invalid # null
+SCENARIO FAILED: Invalid user registration (invalid email format)
+ Screenshot captured: Invalid_user_registration_(invalid_email_format)_20251128_090222.png
+]]></system-out>
+    <system-err><![CDATA[ Scenario Failed: Invalid user registration (invalid email format)
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="testrunner.TestRunner" time="33.003">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 952b607585b4c47fb81dbc231048bab1" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+</failure>
+    <system-out><![CDATA[
+Scenario: Invalid user registration (password mismatch)                        # src/test/resources/Features/Registration.feature:22
+ Starting Scenario: Invalid user registration (password mismatch)
+  Test execution started
+  Opening registration page
+  Given User is on the Advantage Online Shopping registration page             # stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: CREATE NEW ACCOUNT (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.RegistrationPage.navigateToRegistrationPage(RegistrationPage.java:33)
+	at stepdefinition.RegistrationSteps.user_is_on_the_advantage_online_shopping_registration_page(RegistrationSteps.java:23)
+	at ✽.User is on the Advantage Online Shopping registration page(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/Registration.feature:23)
+
+  When User enters invalid registration details password mismatch              # stepdefinition.RegistrationSteps.user_enters_invalid_registration_details_password_mismatch()
+  And User submits the registration form                                       # stepdefinition.RegistrationSteps.user_submits_the_registration_form()
+  Then User should see an error message indicating that passwords do not match # null
+SCENARIO FAILED: Invalid user registration (password mismatch)
+ Screenshot captured: Invalid_user_registration_(password_mismatch)_20251128_090255.png
+]]></system-out>
+    <system-err><![CDATA[ Scenario Failed: Invalid user registration (password mismatch)
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="testrunner.TestRunner" time="180.253">
+    <failure message="Cart should contain 3 items expected [3] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: Cart should contain 3 items expected [3] but found [1]
+</failure>
+    <system-out><![CDATA[
+Scenario: Add three tablets to cart                                                # src/test/resources/Features/tablet.feature:6
+ Starting Scenario: Add three tablets to cart
+  Test execution started
+  Opening Advantage Online Shopping homepage
+  Navigated to homepage
+  Given User is on the Advantage Online Shopping homepage                          # stepdefinition.TabletSteps.user_is_on_the_advantage_online_shopping_homepage()
+  Clicking on Tablets category
+ Tablets category clicked successfully
+  When User clicks on the Tablets category                                         # stepdefinition.TabletSteps.user_clicks_on_the_tablets_category()
+ Tablet products page displayed
+  Then User should see the tablets product page                                    # stepdefinition.TabletSteps.user_should_see_the_tablets_product_page()
+  Selecting product: HP ElitePad 1000 G2 Tablet
+ Product selected: HP ElitePad 1000 G2 Tablet
+  When User selects the tablet "HP ElitePad 1000 G2 Tablet"                        # stepdefinition.TabletSteps.user_selects_the_tablet(java.lang.String)
+Product page loaded. Title: 
+ Product details page displayed for: 
+  Then User should be on the product details page for "HP ElitePad 1000 G2 Tablet" # stepdefinition.TabletSteps.user_should_be_on_the_product_details_page_for(java.lang.String)
+  Clicking Add to Cart
+Clicking Add to Cart button using JavaScript
+ Product added to cart successfully
+Product added to cart successfully
+  And User adds the product to cart                                                # stepdefinition.TabletSteps.user_adds_the_product_to_cart()
+Could not get cart count: Expected condition failed: waiting for presence of element located by: By.xpath: //span[@id='menuCart']//label[@id='toolTipCart'] (tried for 20 second(s) with 500 milliseconds interval)
+Cart text: 
+ Product added to cart. Current cart count: 1
+  Then The product should be added to cart successfully                            # stepdefinition.TabletSteps.the_product_should_be_added_to_cart_successfully()
+  Navigated back to tablets page
+  And User navigates back to tablets page                                          # stepdefinition.TabletSteps.user_navigates_back_to_tablets_page()
+  Selecting product: HP Pro Tablet 608 G1
+ Product selected: HP Pro Tablet 608 G1
+  When User selects the tablet "HP Pro Tablet 608 G1"                              # stepdefinition.TabletSteps.user_selects_the_tablet(java.lang.String)
+Product page loaded. Title: 
+ Product details page displayed for: 
+  Then User should be on the product details page for "HP Pro Tablet 608 G1"       # stepdefinition.TabletSteps.user_should_be_on_the_product_details_page_for(java.lang.String)
+  Clicking Add to Cart
+Clicking Add to Cart button using JavaScript
+ Product added to cart successfully
+Product added to cart successfully
+  And User adds the product to cart                                                # stepdefinition.TabletSteps.user_adds_the_product_to_cart()
+Could not get cart count: Expected condition failed: waiting for presence of element located by: By.xpath: //span[@id='menuCart']//label[@id='toolTipCart'] (tried for 20 second(s) with 500 milliseconds interval)
+Cart text: 
+ Product added to cart. Current cart count: 1
+  Then The product should be added to cart successfully                            # stepdefinition.TabletSteps.the_product_should_be_added_to_cart_successfully()
+  Navigated back to tablets page
+  And User navigates back to tablets page                                          # stepdefinition.TabletSteps.user_navigates_back_to_tablets_page()
+  Selecting product: HP Elite x2 1011 G1 Tablet
+ Product selected: HP Elite x2 1011 G1 Tablet
+  When User selects the tablet "HP Elite x2 1011 G1 Tablet"                        # stepdefinition.TabletSteps.user_selects_the_tablet(java.lang.String)
+Product page loaded. Title: 
+ Product details page displayed for: 
+  Then User should be on the product details page for "HP Elite x2 1011 G1 Tablet" # stepdefinition.TabletSteps.user_should_be_on_the_product_details_page_for(java.lang.String)
+  Clicking Add to Cart
+Clicking Add to Cart button using JavaScript
+ Product added to cart successfully
+Product added to cart successfully
+  And User adds the product to cart                                                # stepdefinition.TabletSteps.user_adds_the_product_to_cart()
+Could not get cart count: Expected condition failed: waiting for presence of element located by: By.xpath: //span[@id='menuCart']//label[@id='toolTipCart'] (tried for 20 second(s) with 500 milliseconds interval)
+Cart text: 
+ Product added to cart. Current cart count: 1
+  Then The product should be added to cart successfully                            # stepdefinition.TabletSteps.the_product_should_be_added_to_cart_successfully()
+Clicking on cart icon
+Failed to open cart: javascript error: arguments[0].click is not a function
+  (Session info: MicrosoftEdge=142.0.3595.94)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [952b607585b4c47fb81dbc231048bab1, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.60E3863C6EAEFFFC4D106351C98FD46C.d.BE29EFA06DC06B354C04860FDCCA5BDC.e.114}]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+  When User opens the shopping cart                                                # stepdefinition.TabletSteps.user_opens_the_shopping_cart()
+Could not get cart count: Expected condition failed: waiting for presence of element located by: By.xpath: //span[@id='menuCart']//label[@id='toolTipCart'] (tried for 20 second(s) with 500 milliseconds interval)
+Cart text: 
+  Expected cart items: 3, Actual: 1
+  Then User should see all 3 tablets in the cart                                   # stepdefinition.TabletSteps.user_should_see_all_tablets_in_the_cart(java.lang.Integer)
+      java.lang.AssertionError: Cart should contain 3 items expected [3] but found [1]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at stepdefinition.TabletSteps.user_should_see_all_tablets_in_the_cart(TabletSteps.java:98)
+	at ✽.User should see all 3 tablets in the cart(file:///C:/Selenium%20Demo/Capstone_Project/src/test/resources/Features/tablet.feature:32)
+
+SCENARIO FAILED: Add three tablets to cart
+ Screenshot captured: Add_three_tablets_to_cart_20251128_090555.png
+]]></system-out>
+    <system-err><![CDATA[ Failed to open cart: javascript error: arguments[0].click is not a function
+  (Session info: MicrosoftEdge=142.0.3595.94)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [952b607585b4c47fb81dbc231048bab1, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.60E3863C6EAEFFFC4D106351C98FD46C.d.BE29EFA06DC06B354C04860FDCCA5BDC.e.114}]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8640, ms:edgeOptions: {debuggerAddress: localhost:52647}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52647/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 952b607585b4c47fb81dbc231048bab1
+ Scenario Failed: Add three tablets to cart
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="testrunner.TestRunner" time="10.77"/>
+  <testcase name="runScenario" classname="testrunner.TestRunner" time="15.448"/>
+</testsuite>
